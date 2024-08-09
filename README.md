@@ -39,9 +39,10 @@ b)Considering any used car <b>mileage above 10K miles as minimum</b> and <b>belo
 and 99.7 </b>.
 
 3.<b>Handle missing values</b>:
+
 a)Features - <b>fuel, transmission, title_status, paint_color, and condition </b>- Replace the missing values with mode.
 
-b)Features - <b>year, manufacturer, and model - These features are missing only a few values. Delete records having <b>"Null"</b> values for one or more of these 
+b)Features - <b>year, manufacturer, and model</b> - These features are missing only a few values. Delete records having <b>"Null"</b> values for one or more of these 
 features.
 
 c)Features- <b>cylinders and type </b> has a value called "other". We can use this value to replace the missing values for these features.
@@ -49,6 +50,7 @@ c)Features- <b>cylinders and type </b> has a value called "other". We can use th
 d)Fill <b>Null</b> values for feature <b>drive</b> with value <b>fwd</b> as its the most common drivetrain.
 
 4.<b>Transform values</b>:
+
 a)Transform the feature <b>"Year"</b> to <b>age</b>.
 
 b)Use only the <b>main model</b> of the vehicle by <b>ignoring the trims</b>. Also, ignore the word <b>"cylinders"</b> in the feature cylinder.
