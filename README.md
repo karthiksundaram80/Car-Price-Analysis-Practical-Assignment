@@ -49,7 +49,7 @@ c)Features- <b>cylinders and type </b> has a value called "other". We can use th
 
 d)Fill <b>Null</b> values for feature <b>drive</b> with value <b>fwd</b> as its the most common drivetrain.
 
-4.<b>Transform values</b>:
+4.<b>Transform values </b>:
 
 a)Transform the feature <b>"Year"</b> to <b>age</b>.
 
@@ -57,12 +57,14 @@ b)Use only the <b>main model</b> of the vehicle by <b>ignoring the trims</b>. Al
 
 c)Since the <b>automatic transmission</b> is the most popular in the US, we can change the transmission having value as <b>"other" to "automatic"</b>.
 
-d)Transform column <b>title_status</b> by moving status <b>"lien"</b> to <b>"clean"</b> and all other statuses to <b>"other"</b>.
+d)Reduce the cardinality of Features - <b> Model, Manufacturer </b>
 
-e)There are used cars that are <b>over 100 years old</b> in the dataset. To make the year relevant, we can eliminate used cars <b>beyond 30 years old</b> from our 
+e)Transform column <b>title_status</b> by moving status <b>"lien"</b> to <b>"clean"</b> and all other statuses to <b>"other"</b>.
+
+f)There are used cars that are <b>over 100 years old</b> in the dataset. To make the year relevant, we can eliminate used cars <b>beyond 30 years old</b> from our 
 dataset.
 
-f)Transform the <b>categorical variables to numeric </b> to be used for further analysis.
+g)Transform the <b>categorical variables to numeric </b> to be used for further analysis in <b>Feature Engineering</b> using Column Transformer.
 
 ### Modelling:
 Perform <b>Linear Regression</b>, <b>Lasso Regression</b>, and <b>Ridge Regression</b> on the resulting dataset
