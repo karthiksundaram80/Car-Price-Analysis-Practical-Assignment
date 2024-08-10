@@ -67,4 +67,7 @@ dataset.
 g)Transform the <b>categorical variables to numeric </b> to be used for further analysis in <b>Feature Engineering</b> using Column Transformer.
 
 ### Modelling:
-Perform <b>Linear Regression</b>, <b>Lasso Regression</b>, and <b>Ridge Regression</b> on the resulting dataset
+Perform <b>Linear Regression</b>, <b>Lasso Regression</b>, and <b>Ridge Regression</b> on the resulting dataset.
+
+### Results Report
+A report containing the primary findings can be found in the Jupyter Notebook (link)
