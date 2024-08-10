@@ -70,4 +70,4 @@ g)Transform the <b>categorical variables to numeric </b> to be used for further 
 Perform <b>Linear Regression</b>, <b>Lasso Regression</b>, and <b>Ridge Regression</b> on the resulting dataset.
 
 ### Results Report
-A report containing the primary findings can be found in the Jupyter Notebook (link)
+A report containing the primary findings can be found in the Jupyter Notebook (https://github.com/karthiksundaram80/Car-Price-Analysis-Practical-Assignment/blob/main/Practical_Application_Assignment_11.1_Karthik%20Sundaram_prompt_II.ipynb)
